@@ -11,26 +11,26 @@
     <form action="cadastro">
         <div id="divnome">
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
+            <input type="text" name="nome" id="nome" required>
         </div>
         <br>
         <div>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
             <label for="psw">- Senha:</label>
             <input type="password" name="psw" id="psw">
         </div>
         <br>
         <div>
             <label for="data">Data de Nascimento: </label>
-            <input type="date" name="data" id="data"> 
+            <input type="date" name="data" id="data" required> 
             <label for="foto">- Foto</label>
             <input type="file" name="foto" id="foto">
         </div>
         <br>
         <div>
             <label for="naci">Nacionalidade: </label>
-            <select name="naci" id="naci">
+            <select name="naci" id="naci" required>
                 <option value="russian">Russia</option>
                 <option value="american">Americana</option>
                 <option value="brasilian">Brasileira</option>
@@ -54,15 +54,14 @@
             <label for="education">Educação</label>
             <input type="checkbox" name="education" id="education">
         </div>
-
+        <br>
         <div>
-            <textarea name="resumo" id="resumo" cols="60" rows="14" placeholder="Digite um Resumo sobre você!"></textarea>
+            <textarea name="resumo" id="resumo" cols="60" rows="14" placeholder="Digite um Resumo sobre você!" maxlength="700" required></textarea>
         </div>
-
+        <br>
         <div>
             <input type="submit" value="Cadastrar">
         </div>
-
     </form>
 </body>
 </html>
