@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1>Membro Ponte Preta</h1>
+                <img src="imgs/logo.png" alt="Logo" id="logo">
+                <a href="index.html">Inicio</a>
+                <a href="estadio.html">Estadio</a>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    
+    <section>
+        <div id="formulario">
+            <h1>Cadastro de Membro</h1>
+            <form action="cadastro" id="formulario">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                    <label for="nome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="psw">- Senha:</label>
+                    <input type="password" name="psw" id="psw">
+                </div>
+                <br>
+                <div>
+                    <label for="data">Data de Nascimento: </label>
+                    <input type="date" name="data" id="data"> 
+                    <label for="foto">- Foto</label>
+                    <input type="file" name="foto" id="foto">
+                </div>
+                <br>
+                <div>
+                    <label for="member">Tipo de Membro: </label>
+                    <select name="member" id="member" required>
+                        <option value="">Bronze</option>
+                        <option value="silver">Prata</option>
+                        <option value="gold">Ouro</option>
+                    </select>
+                    <label for="gen">Genero:</label>
+                    <select name="gen" id="gen" required>
+                        <option value="">Masculino</option>
+                        <option value="silver">Feminino</option>
+                        <option value="gold">Outro</option>
+                    </select>
+                    
+                </div>
+                <div>
+                    <input type="submit" value="Enviar Cadastro">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="logo_footer">
+            <img src="imgs/logo.png" alt="logofooter" id="logofooter">
+        </div>
+    </footer>
+</body>
+</html>
