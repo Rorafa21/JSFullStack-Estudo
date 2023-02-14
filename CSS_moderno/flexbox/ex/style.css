@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px; 
+}
+.logo_rock{
+    width: 40px;
+}
+.logo_onebitcode{
+    width: 200px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.btn_header{
+    font-size: 20px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_header:hover{
+    border-color: red;
+    color: red;
+}
+.container{
+    background-color: gray;
+    min-height: 100vh;
+    display: flex;
+    gap: 0px 90px;
+    flex-direction: row-reverse;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.item:hover{
+    border-color: red;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
