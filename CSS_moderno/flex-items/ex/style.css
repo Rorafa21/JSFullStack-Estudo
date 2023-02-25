@@ -24,9 +24,28 @@
     border: 2px solid black;
 }
 
+.main-content{
+    flex: 1 0 400px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
 .item{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    display: flex;
+    gap: 10px;
+    width: 350px;
+    height: 250px;
     
 }
+
 
 .footer{
     flex-basis: 100%;
