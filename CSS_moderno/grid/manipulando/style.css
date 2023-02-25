@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 10px;
+    background-color: darkgray;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(210px, auto);
+    gap: 10px 15px;
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 10px;
+}
